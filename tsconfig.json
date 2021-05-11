@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "declaration": true,
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "baseUrl": "."
+  },
+  "exclude": ["dist", "tests"],
+  "include": ["src"]
+}
