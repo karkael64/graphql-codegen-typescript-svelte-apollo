@@ -33,7 +33,7 @@ export class SvelteApolloVisitor extends ClientSideBaseVisitor {
     }
 
     if (this.imports.size) {
-      apolloImports.push(...this.imports);
+      apolloImports.push(...Array.from(this.imports));
     }
 
     if (apolloImports.length) {

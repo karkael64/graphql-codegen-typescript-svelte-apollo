@@ -4,6 +4,7 @@
     "declaration": true,
     "esModuleInterop": true,
     "module": "CommonJS",
+    "target": "es6",
     "baseUrl": "."
   },
   "exclude": ["dist", "tests"],

@@ -23,7 +23,7 @@ path/to/file.ts:
   plugins:
     - typescript
     - typescript-operations
-    - typescript-svelte-apollo
+    - graphql-codegen-typescript-svelte-apollo
   config:
     loadGetClientFrom: ./client
 ```
@@ -41,7 +41,7 @@ path/to/file.ts:
   plugins:
     - typescript
     - typescript-operations
-    - typescript-svelte-apollo
+    - graphql-codegen-typescript-svelte-apollo
   config:
     exportOnlyFunctions: true
 ```
